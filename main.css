@@ -1,0 +1,237 @@
+*{
+text-align: center;
+margin: 0;
+}
+.container{
+    width: 100vw;
+    
+}
+.headingfont{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: hsla(192, 100%, 9%, 0.959);
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.73rem;
+    font-weight: 600;
+    color: rgb(99, 95, 95);
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin: 0 7vw;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20vh;
+
+}
+.logo{
+    height: 14px;
+    width: 80px;
+}
+#try-free{
+    height: 18px;
+    width: 70px;
+    padding-top: 0.3vh;
+    font-size: 0.7rem;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsla(322, 100%, 66%, 0.74);
+    border-radius: 20px;
+    box-shadow:1px 2px hsla(322, 63%, 75%, 0.281);
+}
+article{
+    margin: 0 7vw;
+}
+article h3{
+    font-size: 1.3rem;
+    margin-bottom: 4vh;
+}
+article p{
+    padding: 0 5vw;
+    margin-bottom: 6vh;
+
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 55vw;
+    height: 6vh;
+    font-size: 0.65rem;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.911);
+    border: 1px solid white;
+    margin-bottom: 15vh;
+
+
+}
+article img{
+    width: 100%;
+    margin:0 auto;
+    margin-bottom: 15vh;
+}
+.numbering{
+    position: relative;
+    left: 20vw;
+    margin: 0 7vw;
+    width: 70%;
+    height: 50vh;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20vh;
+}
+
+
+.numbering div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.numbering img{
+    height: 25px;
+    width: 25px;
+}
+.numbering h1{
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+section img{
+    width: 100%;
+    margin: 0 7vw;
+    margin-bottom: 10vh;
+}
+section h4{
+    margin: 0 7vw;
+    margin-bottom: 3vh;
+}
+section p{
+    margin: 0 7vw;
+    padding: 0 -1vh;
+}
+.backgroundtop{
+    margin: 0;
+    margin-bottom: -1vh;
+}
+.grow-together div{
+    padding:15vh 0 ;
+    background-color: rgba(204, 228, 228, 0.164);
+}
+.flowing-conversation p{
+    margin-bottom: 20vh;
+}
+.your-users div{
+    padding: 15vh 0;
+    background-color: rgba(204, 228, 228, 0.164);    ;
+}
+.backgroundbot{
+    margin: 0;
+    margin-bottom: 20vh;
+}
+.ready-to-build{
+    margin-top: -10vh;
+}
+.ready-to-build h2{
+    margin-bottom: 6vh;
+}
+
+.footerbg{
+    width: 100%;
+    margin-bottom: -1vh;
+}
+.footerelements{
+    background-color: hsl(192,100%,9%);
+    padding: 0 7vw;
+}
+.footerelements h3{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    text-align: left;
+    color: rgba(238, 238, 238, 0.986);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.footerelements p{
+    letter-spacing: 0.6px;
+    padding-bottom: 3vh;
+    text-align: left;
+    color: #eee;
+    font-size: 13.5px;
+}
+#email{
+    margin-bottom: 1.5vh;
+    width: 100%;
+    height: 6vh;
+    border-radius: 1vh;
+    border: 0.5px solid #f5faff;
+}
+#subscribe{
+    position: relative;
+    left: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 50%;
+    height: 6vh;
+    border-radius: 1vh;
+    background-color: hsl(322, 100%, 66%);
+    color: #f5faff;
+    border: 0.5px solid hsl(322, 100%, 66%);
+    margin-bottom: 15vh;
+}
+
+
+.huddlebot h1{
+    position: relative;
+    left: -6vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #f5faff;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 2vh;
+}
+.huddlebot p{
+    text-align: left; 
+    color: #f5faff;
+    font-size: 13.5px;
+}
+a{
+    color: #f5faff;
+}
+.huddlebot img{
+    position: relative;
+    left: -7vh;
+    height: 35px;
+    width: 35px;
+}
+.contact img{
+    position: relative;
+    left: -22vh;
+    top: 3vh;
+}
+.contact{
+    padding: 0;
+    display: inline-block;
+}
+.contact p{
+    position: relative;
+    left: -5vw;
+}
+
+.social{
+    margin-top: 5vh;
+    margin-left: 1vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.social i{
+    padding-right: 3vw;
+}
